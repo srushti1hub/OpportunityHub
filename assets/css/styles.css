@@ -92,6 +92,12 @@ img {
 .header__icon{
   color: var(--first-color);
 }
+
+.inprogress__title{
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-bold);
+  margin-bottom: 3rem;
+}
 /*=============== THEME ===============*/
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
