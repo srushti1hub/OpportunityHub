@@ -542,15 +542,6 @@ body.dark-theme {
   .contact__container {
     grid-template-columns: 3fr 1.5fr 1.25fr;
   }
-  .footer__container {
-    grid-template-columns: repeat(5, 1fr);
-  }
-  .footer__social {
-    align-items: flex-start;
-  }
-  .footer__social-link {
-    font-size: 1.45rem;
-  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -563,9 +554,6 @@ body.dark-theme {
   }
   .home__description {
     padding-right: 5rem;
-  }
-  .footer__container {
-    column-gap: 3rem;
   }
   .scrollup {
     right: 2rem;

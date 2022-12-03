@@ -20,15 +20,52 @@
 </head>
 
 <body>
-    <section class="home section" id="home">
-        <div class="home__container container grid">
-            <img src="../assets/images/undraw_Taken_re_yn20.png" class="vg__img svg__color home__img" alt="">
-            <div class="home__data">
-                <h1 class="inprogress__title">Hang On till We Implement functionality </h1>
-                <a href="../index.html" class="button">Go back</a>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Opportunity Hub</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <i class='bx bx-toggle-left change-theme' id="theme-button"></i>
+                </ul>
             </div>
-        </div>
-    </section>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+
+            <a href="pages/inprogress.html" class="button button__header">Subscribe <i class='bx bxs-hand-up'></i></a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home section">
+            <div class="home__container container grid">
+                <img src="../assets/images/undraw_Taken_re_yn20-removebg-preview.png"
+                    class="vg__img svg__color home__img" alt="">
+                <div class="home__data">
+                    <h1 class="inprogress__title">Hang On till We Implement functionality </h1>
+                    <a href="../index.html" class="button">Go back</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
+        <p class="footer__copy">&#169; Opportunity Hub <br> All right reserved </p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="../assets/js/main.js"></script>
 </body>
 
 </html>
